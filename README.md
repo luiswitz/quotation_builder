@@ -1,24 +1,25 @@
-# README
+# Quotation Builder
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Getting Started
 
-Things you may want to cover:
+```
+git clone git@github.com:luiswitz/quotation_builder.git
+```
 
-* Ruby version
+- Backend Setup
 
-* System dependencies
+```
+bundle install
+./bin/rails db:setup
+./bin/rails db:seed
+```
 
-* Configuration
+- Frontend Setup
 
-* Database creation
+```
+cd client
+npm install
+npm start
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+That's it :)
