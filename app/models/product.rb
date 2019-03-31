@@ -1,5 +1,7 @@
+# frozen_string_literal: true
+
 class Product < ApplicationRecord
-  PRODUCT_TYPES = %w[subscription service goods]
+  PRODUCT_TYPES = %w[subscription service goods].freeze
 
   validates :name, presence: true
   validates :price, presence: true
