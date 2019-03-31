@@ -58,6 +58,7 @@ Documentation:
 AllCops:
   Exclude:
     - bin/**/*
+    - config/**/*
     - db/schema.rb
     - db/seeds.rb
     - db/migrate/*
